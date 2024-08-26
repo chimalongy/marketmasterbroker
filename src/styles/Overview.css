@@ -1,0 +1,28 @@
+.overview{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+.overview-container{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.overview-container> div{
+    width: calc(100% /4 );
+    background-color: var(--blue-800);
+    border-radius: 20px;
+    padding: 15px;
+     
+}
+
+@media screen and (max-width: 768px) {
+    .overview-container{
+        flex-direction: column;
+    }
+    .overview-container> div{
+        width:100%;
+    }
+}

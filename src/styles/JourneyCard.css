@@ -1,0 +1,24 @@
+.journey-card{
+    padding:  40px 0;
+    border-radius: 20px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    gap:70px;
+    align-items: center;
+}
+.journey-card>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid var(--blue-400);
+}
+.journey-card>h2{
+    width: 100px;
+    height: 100px;
+   width: 90%;
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   margin-bottom: 10px;
+}

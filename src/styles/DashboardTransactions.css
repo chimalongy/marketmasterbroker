@@ -1,0 +1,16 @@
+.DashboardTransactions{
+
+    /* background-color: white; */
+}
+
+.transaction-item{
+
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+.transaction-item>div{
+
+    color:white;
+    padding: 16px;
+}

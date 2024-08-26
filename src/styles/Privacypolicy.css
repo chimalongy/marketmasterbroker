@@ -1,0 +1,33 @@
+.privacypolicy{
+    width: 100%;
+    color: var(--backgroundColor1);
+    background-color: var(--fontColor1);
+    font-size: 16px;
+    padding: 2rem 0;
+    
+
+}
+.privacypolicy-container{
+    width: 80%;
+    margin: auto;
+    
+}
+.privacypolicy-container>h1{
+    font-size: 35px;
+    padding: 2rem 0;
+    text-align: center;
+    color: orangered;
+}
+
+.privacypolicy-body>h1{
+    font-size: 20px;
+    padding: 1rem 0;
+    color: white;
+    text-shadow: var(--textShadow);
+}
+.privacypolicy-body>ul{
+    
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

@@ -1,0 +1,56 @@
+.profile-settings {
+    margin: 20px;
+  }
+  
+  .profile-settings h1 {
+    text-align: center;
+  }
+  
+  .profile-settings form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .profile-settings .segment {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-settings h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  .profile-settings .input-field {
+    margin-bottom: 15px;
+  }
+  
+  .profile-settings label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .profile-settings input,
+  .profile-settings textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .profile-settings .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .profile-settings button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

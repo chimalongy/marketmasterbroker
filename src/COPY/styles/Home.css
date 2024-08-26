@@ -1,0 +1,247 @@
+@import 'KeyFrames.css';
+
+* {
+  box-sizing: border-box;
+}
+
+.Section1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(51, 22, 1);
+  color: orangered;
+}
+
+.section1contents {
+  width: 80%;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-welcome {
+  width: 55%;
+}
+
+.page-welcome > h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 2s ease-in-out;
+}
+
+.page-welcome > p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  opacity: 0;
+  animation: slideUp 1s ease-in-out forwards;
+}
+
+.page-welcome > button {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 200px;
+  background-color: chocolate;
+  color: black;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  animation: slideUp 3s ease-in-out forwards;
+}
+
+.page-welcome-image-div {
+  width: 45%;
+  height: 100%;
+  padding: 10px;
+}
+
+.page-welcome-image-div > img {
+  width: 100%;
+  max-height: 400px;
+  animation: bounceAnimation 6s infinite;
+}
+
+.Section2,
+.Section3,
+.Section4,
+.Section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  animation: slideUp 1s ease-in-out forwards;
+}
+
+.section2header {
+  background-color: chocolate;
+  color: white;
+  padding: 15px;
+  margin: 30px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  animation: slideUp 3s ease-in-out forwards;
+}
+
+.section2contents {
+  width: 80%;
+}
+
+.section3contents {
+  width: 80%;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+.section3contents > div {
+  width: calc(100% / 5);
+}
+
+.section4contents {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  gap: 20px;
+}
+
+.section4contents-left {
+  width: 60%;
+}
+
+.section4contents-left > p {
+  font-size: 18px;
+  padding: 15px;
+  color: rgb(51, 22, 1);
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.section4contents-right {
+  width: 40%;
+}
+
+.section5contents {
+  width: 80%;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section5contentflex {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.section5contentflex > div {
+  width: calc(100% / 4);
+}
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+  .section1contents {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .page-welcome {
+    width: 100%;
+    text-align: center;
+  }
+
+  .page-welcome > h1 {
+    font-size: 30px;
+  }
+
+  .page-welcome > p{
+    font-size: 15px;
+  }
+  .page-welcome > button {
+    font-size: 15px;
+    margin-top: 25px;
+    
+    
+  }
+
+  .page-welcome-image-div {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .page-welcome-image-div > img {
+    max-height: 300px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .section2contents,
+  .section3contents {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section2contents > div,
+  .section3contents > div {
+    width: 100%;
+  }
+
+  .section4contents,
+  .section5contents {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section4contents-left,
+  .section4contents-right,
+  .section5contentflex > div {
+    width: 100%;
+  }
+}
+
+/* Tablets and Small Desktops */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section1contents {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .page-welcome > h1 {
+    font-size: 36px;
+  }
+
+  .page-welcome > p,
+  .page-welcome > button {
+    opacity: 1;
+  }
+
+  .page-welcome > p {
+    
+    font-size: 18px;
+    
+  }
+
+  .page-welcome-image-div > img {
+    max-height: 350px;
+  }
+}
+/* 
+/* Large Desktops and Laptops */
+/*@media (min-width: 1024px) {*/
+  /* No specific changes for this size range */
+/*} */
+

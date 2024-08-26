@@ -1,0 +1,61 @@
+.investmentCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 30px;
+    color: white;
+    gap: 10px;
+}
+
+.investmentCard .left {
+    width: 70%;
+    
+}
+
+.investmentCard .right {
+    width: 30%;
+    position: relative;
+    justify-content: right;
+    display: flex;
+    
+   
+}
+.investmentCard .right>div {
+    position: absolute;
+    bottom: 0; 
+   
+}
+
+
+
+.assetHeader {
+    font-size: 30px; 
+}
+.investmentCard .right>div>p {
+    text-align: right;
+   
+   
+ }
+
+@media screen and (max-width: 768px) {
+    .investmentCard{
+        flex-direction: column;
+    }
+
+    .investmentCard .left {
+        width: 100%;
+        
+    }
+
+    .investmentCard .right {
+        width: 100%;
+        border-top: 2px dashed solid var(--blue-400) ;
+        
+    }
+    .investmentCard .right>div {
+        position: relative;
+      
+    }
+   
+    
+}

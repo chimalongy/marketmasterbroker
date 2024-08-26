@@ -1,0 +1,57 @@
+.send-bitcoin {
+    margin: 20px;
+  }
+  
+  .send-bitcoin h1 {
+    text-align: center;
+  }
+  
+  .send-bitcoin form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .send-bitcoin label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .send-bitcoin input,
+  .send-bitcoin textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .send-bitcoin .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .send-bitcoin button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Media queries for responsive design */
+  
+  /* Mobile phones */
+  @media (max-width: 480px) {
+    .send-bitcoin form {
+      max-width: 300px;
+    }
+  }
+  
+  /* Tablets */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .send-bitcoin form {
+      max-width: 400px;
+    }
+  }
+  

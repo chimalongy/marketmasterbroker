@@ -1,0 +1,73 @@
+/* Style for the footer */
+footer {
+ 
+  justify-content: space-around;
+  background-color: black;
+  color: var(--headerColor1);
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 85%;
+  padding: 40px;
+}
+
+/* Style for each column in the footer */
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Style for column titles */
+.footer-column h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Style for social icons */
+.social-icons a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+/* Style for contact information */
+.contact-info p {
+  margin-bottom: 5px;
+}
+
+/* Style for the address */
+.footer-column p {
+  margin-bottom: 5px;
+}
+
+/* Style for Font Awesome icons */
+svg {
+  margin-right: 5px;
+}
+
+/* Hover effect on links */
+a:hover {
+  text-decoration: underline;
+}
+
+.bottomBarStyle {
+  background-color: white;
+  color: #B58570;
+  padding: 8px;
+  text-align: center;
+
+}
+
+@media screen and (max-width:750px) {
+
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,64 @@
+.Section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--textColor1);
+}
+
+.videobackground{
+  background-image: url("../images/regbg.gif");
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-container{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  gap:60px;
+  padding: 6rem 0;
+}
+.section-container>div{
+  width: 50%;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.user-details-container{
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+}
+
+
+
+
+.confrim-buttons{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap:10px;
+}
+
+
+
+
+
+
+
+
+ @media screen and (max-width:750px) {
+ 
+  .section-container{
+   flex-direction: column;
+   padding: 4rem 0;
+  }
+  .section-container>div{
+   width: 100%;
+  }
+
+ 
+
+}

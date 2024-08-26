@@ -1,0 +1,38 @@
+.DashboardBankTransfers{
+    color:rgb(73,80,87);
+    padding:16px;
+    background-color:white;
+}
+
+.form-field{
+    display: flex;
+    gap:10px;
+
+}
+.form-field>label{
+    width: 200px;
+}
+.error-container{
+    background-color:bisque;
+    color: red;
+    border-radius: 13px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.error-container>ul{
+    
+    padding-left: 30px;
+}
+.error-item{
+    font-size: 12px;
+}
+.error-lable{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .form-field{
+        flex-direction: column;
+    
+    }
+}

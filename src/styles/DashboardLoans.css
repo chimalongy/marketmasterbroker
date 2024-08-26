@@ -1,0 +1,44 @@
+.DashboardLoans{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.loan-application{
+    background-color: white;
+    padding: 30px 16px;
+    padding-right: 50%;
+}
+
+.agreement-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   text-align: left;
+   
+}
+.agreement-container>input{
+    font-size: 18px;
+}
+.agreement-container>label{
+   width: 80%;
+}
+
+.loan-list{
+    background-color: white;
+    padding: 30px 16px;
+   
+}
+
+.loan-list>p{
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .loan-application{
+        
+        padding: 30px 16px;
+    }
+
+}

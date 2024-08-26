@@ -1,0 +1,89 @@
+.payment-container{
+max-width: 400px;
+background-color: var(--blue-100);
+margin: 0 auto;
+padding: 30px;
+border-radius: 20px;
+}
+
+.selected-plan{
+  font-size: 30px;
+}
+
+
+
+.payment-icons{
+
+
+
+ display: flex;
+ max-width: 300px;
+ justify-content: center;
+
+}
+.payment-icons> div>i{
+ font-size: 30px;
+color: var(--headerColor2);
+
+ 
+}
+.payment-icons> div{
+padding: 30px;
+display: flex;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+ 
+}
+.little-description{
+font-size: 10px;
+ 
+}
+
+.selected-plan-payment{
+  background-color: var(--blue-200);
+  border-radius: 20px;
+}
+
+.payment-container{
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+
+.qrContainer{
+  margin-top: 30px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap:10px;
+ 
+}
+
+
+
+.Investment-confirmed{
+  padding: 30px;
+  border-radius: 20px;
+  background-color: var(--blue-700);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  max-width: 400px;
+  margin: 30px auto;
+  color: var(--blue-100);
+  font-size: 20px;
+}
+.Investment-confirmed>i{
+  font-size: 30px;
+  color: var(--headerColor1);
+}
+
+.copy-address-button:active{
+ background-color: var(--headerColor1);;
+ padding: 10px;
+ border-radius: 5px;
+}

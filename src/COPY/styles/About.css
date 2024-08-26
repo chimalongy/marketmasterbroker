@@ -1,0 +1,40 @@
+.Section{
+width:100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.section-cointainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+   
+}
+
+.about-paragraph{
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   
+
+}
+.about-paragraph>h2{
+    text-align: left;
+    color: rgb(51, 22, 1);;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.about-paragraph>p{
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    padding: 20px;
+     color: rgb(51, 22, 1);;
+   text-align: justify;
+   font-size: 16px;
+
+}

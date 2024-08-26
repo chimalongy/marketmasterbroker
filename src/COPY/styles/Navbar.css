@@ -1,0 +1,175 @@
+:root{
+    --mainColor:#29335c;
+    --mainColorLight:#5767aa;
+    --secondaryColor:#D82B39;
+    --textColor:#eee;
+}
+
+header{
+    background-color: var(--secondaryColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    color: var(--textColor);
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+   }
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+   
+    
+}
+
+
+
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    gap:10px;
+    padding: 0;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 20px;
+  
+}
+
+nav>button{
+    width:15%;
+    display: block;
+    background-color: orangered;
+    border: 3px;
+    padding: 13px;
+    
+}
+
+nav>ul>li>a{
+    color: var(--textColor);
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    width:120px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+nav>ul>li>a:hover{
+    background-color: orangered;
+}
+.responsive-button{
+    display:none;
+   
+}
+
+
+
+@media (max-width: 767px) {
+    header{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
+    }
+   
+    nav>button{
+        width: 40%;
+        display: none;
+    }
+   
+    .responsive-button{
+        display:block;
+        width: 50px;
+        height: 50px;
+       
+    }
+
+    .responsive-nav-visible{
+        width:100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .responsive-nav-remove{
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+
+
+/* nav a{
+    margin: 0 2rem;
+    color:var(--textColor);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:var(--secondaryColor);
+}
+header .nav-btn{
+    padding: 5px;
+    cursor:pointer;
+    background: transparent;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    header nav{
+        position: fixed;
+        top:0;
+        left:0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:1.5rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+header .responsive_nav{
+    transform: none;
+}
+
+nav .nav-close-btn{
+    position: absolute;
+    top:2rem;
+    right: 2rem;
+}
+nav a{
+    font-size: 1.5rem;
+}
+
+    
+} */

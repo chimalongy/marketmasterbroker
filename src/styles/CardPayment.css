@@ -1,0 +1,19 @@
+
+
+.depositCard{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.depositCard>img{
+    width: 150px;
+    height: 150px;
+    margin:0 auto;
+    border-radius: 20px;
+}
+.alertInfo {
+    text-align: center;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px 0;
+}

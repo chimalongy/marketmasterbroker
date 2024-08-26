@@ -1,0 +1,70 @@
+.cardComponent2{
+    font-size: 19px;
+    border-radius:15px;
+    border:1px solid grey;
+    padding-top: 20px;
+   
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+.card-header{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tag-container{
+    text-align: center;
+    padding: 8px;
+    background-color: #28A745;
+    border-radius: 20px;
+    color:white;
+    font-size: 16px;
+}
+
+.percentage{
+    font-size: 70px;
+    font-family: "Rowdies";
+}
+
+.butttom{
+    background: linear-gradient(to right, #CACDDD 0%, #A2C4DB 100%);
+    padding:15px;
+    display: flex;
+    justify-content: center;
+    color:white;
+    flex-direction: column;
+    gap:15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card-details{
+    list-style-type: none;
+}
+.card-details>li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-details>li>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:12px;
+}
+
+.link-button{
+    padding:10px;
+    text-align: center;
+    border:1px solid white;
+    color:white;
+    border-radius: 15px;
+   margin:0 auto;
+
+}

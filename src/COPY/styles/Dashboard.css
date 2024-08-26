@@ -1,0 +1,132 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .user-provide {
+    margin-bottom: 20px;
+  }
+  
+  .user-provide h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .shadowed-container {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .wallet-buttons {
+    margin-top: 20px;
+  }
+  
+  .wallet-buttons button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .send-div,
+  .receive-div {
+    margin-top: 20px;
+  }
+  
+  .send-div input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .send-div button,
+  .receive-div button {
+    padding: 8px 16px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bitcoin-address {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bitcoin-address button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaction-table th,
+  .transaction-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transaction-table th {
+    text-align: left;
+  }
+  
+  /* Media queries for responsive design */
+  
+  /* Mobile phones */
+  @media (max-width: 480px) {
+    .shadowed-container {
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .wallet-buttons button {
+      padding: 6px 12px;
+    }
+  
+    .send-div input[type='text'] {
+      padding: 6px;
+      margin-bottom: 8px;
+    }
+  
+    .send-div button,
+    .receive-div button {
+      padding: 6px 12px;
+    }
+  }
+  
+  /* Tablets */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .shadowed-container {
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .wallet-buttons button {
+      padding: 6px 12px;
+    }
+  
+    .send-div input[type='text'] {
+      padding: 6px;
+      margin-bottom: 8px;
+    }
+  
+    .send-div button,
+    .receive-div button {
+      padding: 6px 12px;
+    }
+  }
+  

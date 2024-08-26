@@ -1,0 +1,63 @@
+.crypto-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   gap:18px;
+    padding: 20px;
+  }
+  
+  .crypto-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue-800);
+    border-radius: 8px;
+    padding: 10px 20px;
+   flex-basis: auto;
+   flex: auto;
+   
+    
+  }
+  
+  .crypto-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .crypto-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .crypto-checkbox {
+    transform: scale(1.5);
+  }
+  
+  .selected-cryptos {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .selected-cryptos h2 {
+    margin-bottom: 10px;
+  }
+  
+  .selected-cryptos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .selected-cryptos li {
+    margin: 5px 0;
+  }
+  
+
+
+  .address-copy:active{
+     color: var(--blue-700)
+    ;
+  }

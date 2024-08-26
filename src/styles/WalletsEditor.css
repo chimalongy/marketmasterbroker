@@ -1,0 +1,93 @@
+
+
+
+
+
+.WalletsEditor{
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    
+}
+
+.warninig{
+    color:white;
+}
+.warninig>p{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.wallets-container{
+  display: flex;
+  flex-direction: column;
+  gap:18px;
+}
+
+.tablediv{
+    overflow-x:auto ;
+}
+.crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+   
+    text-align: left;
+  }
+  
+  .crypto-table thead tr {
+   
+    color: #ffffff;
+    text-align: left;
+    
+  }
+  
+  .crypto-table th, .crypto-table td {
+    padding: 8px 2px;
+  }
+  
+  .crypto-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    
+    color: white;
+  }
+  
+  .crypto-table tbody tr:nth-of-type(even) {
+   background-color: rgba(23, 37, 84, 0.4)
+
+  }
+  
+  .crypto-table tbody tr:last-of-type {
+    border-bottom: 2px solid #1a1a1a;
+  }
+  
+  
+  
+  .icon {
+   width: 20px;
+    margin-right: 10px;
+  }
+  
+
+.bank-form{
+    max-width: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.form-actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .crypto-table th, .crypto-table td {
+        padding: 5px;
+      }
+}

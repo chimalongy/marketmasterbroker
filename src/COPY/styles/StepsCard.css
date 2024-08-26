@@ -1,0 +1,41 @@
+.StepsCard {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding:15px;
+    
+  }
+  
+  .left {
+   width: 30%;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  }
+
+  .left>div{
+    font-size: 40px;
+  }
+  
+  .right {
+   width: 70%;
+  
+
+  }
+  
+  .header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+    color: orangered;
+  }
+  
+  .description {
+    font-size: 15px;
+    color: rgb(51, 22, 1);
+  }
+  

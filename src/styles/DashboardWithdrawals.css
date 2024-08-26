@@ -1,0 +1,92 @@
+.DashboardWithdrawals{
+  color:white;
+  display: flex;
+  flex-direction: column;
+  gap:18px;
+
+}
+
+.shortdiv{
+  max-width: 500px;
+}
+
+.withdraw-method{
+   display: flex;
+   flex-direction: column;
+   gap: 18px;
+   padding: 12px 15px;
+}
+.withdraw-method>select{
+   color: var(--blue-600);
+}
+
+.withdrawalOption{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.withdrawal-details{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  padding:20px 15px
+
+}
+.withdrawal-details>p{
+ padding:10px;
+ border-radius: 12px;
+ background-color: var(--blue-600);
+ text-align: center;
+ width: 80% ;
+ margin: 0 auto;
+}
+
+.debit-container{
+  border-top:1px dashed grey;
+  padding: 8px;
+  display: flex;
+  justify-content: right;
+  
+}
+.debit-container>p{
+  padding:15px;
+  background-color: coral;
+}
+
+.lamba-container{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.lamba-container>p{
+
+  padding: 50px;
+  text-align: center;
+  color: white;
+  background-color: red;
+  
+
+}
+.lamba-container>img{
+width: 200px;
+border-radius: 20px;
+margin: auto;
+
+}
+
+.withdrawal-header{
+  background-color: white;
+  color: var(--blue-600);
+  display:flex;
+  align-items: center;
+  gap:10px;
+  margin: 30px 0;
+  padding: 10px;
+  border-radius: 12px;
+}
+.withdrawal-header>p{
+  font-weight: bold;
+}

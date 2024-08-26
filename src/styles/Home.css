@@ -1,0 +1,482 @@
+.steps-container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--blue-950);
+  padding: 100px 0;
+}
+.steps-container-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.steps-container-wrapper > div {
+  flex-basis: calc(100% / 4);
+}
+
+.sect-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.sect-container-wrapper {
+  width: 80%;
+}
+.sect-container-wrapper .top > p {
+  width: 40%;
+}
+.sect-container-wrapper .buttom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.sect-container-wrapper .buttom .left {
+  width: 30%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sect-container-wrapper .buttom .right {
+  width: 60%;
+}
+.sect-container-wrapper .buttom .right > img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.592); /* Adds the box shadow */
+  border-radius: 20px;
+}
+
+.journey-flex {
+  display: flex;
+  gap: 25px;
+  margin-top: 80px;
+}
+.journey-flex > div {
+  width: calc(100% / 4);
+}
+
+.priorty{
+    display: flex;
+}
+.priorty .left{
+    width: 40%;
+}
+.priorty .left>p{
+   font-size: 18px;
+   color: white;
+}
+.priorty .right{
+    width: 60%;
+    padding:30px;
+}
+.priorty .right>img{
+    width: 100%;
+    border-radius: 20px;
+}
+.crypto-prices-container{
+    margin-top: 80px;
+    
+}
+
+
+
+
+
+.about-us-wrapper {
+  background-color: var(--backgroundLight2);
+  padding: 80px 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.investment-cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.investments-card {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  width: calc(100% / 5);
+  gap: 10px;
+  background-color: var(--blue-200);
+  padding: 18px 12px;
+}
+.investments-card > img {
+  height: 200px;
+}
+
+.investment-header {
+  color: var(--blue-700);
+  font-size: 20px;
+}
+
+.why-choose-us-container {
+  background-color: black;
+  padding: 60px 0;
+}
+.why-choose-us-wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+.why-choose-us-wrapper > h1,
+.why-choose-us-wrapper > p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-container > div {
+  width: calc(100% / 3);
+  padding: 30px;
+}
+
+.ourservices-cards {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.ourservices-cards > div {
+  width: 50%;
+  padding: 15px;
+}
+.our-journey {
+  color: white;
+  padding: 60px 0;
+  background-color: black;
+}
+
+.our-journey-description {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.count-cards-container {
+  display: flex;
+}
+.count-cards-container > div {
+  width: calc(100% / 4);
+  padding: 10px;
+}
+
+.our-history-container {
+  padding: 60px 0;
+}
+
+.our-history-wrapper {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+}
+.our-history-wrapper > div {
+  width: 50%;
+  padding: 20px;
+}
+.our-history-wrapper > .left {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.our-history-wrapper > .left > p {
+  color: var(--textColor1);
+}
+.our-history-wrapper > .left > h1 {
+  color: var(--headerColor1);
+}
+.our-history-wrapper > .right {
+  display: flex;
+  align-items: center;
+}
+.our-history-wrapper > .right > img {
+  width: 100%;
+}
+
+.our-process-container {
+  padding: 60px 0;
+  background-color: var(--backgroundLight);
+}
+
+.our-process-wraper {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.process-header {
+  text-align: center;
+}
+.processes-container {
+  width: 100%;
+  padding: 30px;
+  gap: 10px;
+  display: flex;
+}
+.processes-container > div {
+  width: calc(100% / 4);
+}
+
+.client-reviews {
+  padding: 60px 0;
+}
+.client-reviews-wrapper {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.review-container {
+  display: flex;
+}
+.review-container > div {
+  width: calc(100% / 3);
+
+  padding: 10px;
+}
+
+.FAQs-container {
+  padding: 60px 0;
+  background-color: var(--backgroundLight);
+}
+
+.FAQ-wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.Get-Started-container {
+  padding: 60px 0;
+}
+.get-started-wrapper {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+}
+.get-started-wrapper > div {
+  width: 50%;
+  padding: 10px;
+}
+
+.form-holder {
+  padding: 40px 30px;
+  background-color: var(--backgroundLight);
+  margin: auto;
+  width: 80%;
+}
+
+.get-started-wrapper > .right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-get-solution {
+  border-radius: 4px;
+  padding: 10px 18px;
+  text-align: center;
+  color: white;
+  background-color: var(--headerColor1);
+}
+
+.btn-get-solution:hover {
+  background-color: var(--headerColor2);
+  color: white;
+}
+
+.mini-header {
+  color: var(--headerColor1);
+}
+
+@media screen and (max-width: 768px) {
+  .steps-container {
+    padding: 50px 0;
+  }
+  .steps-container-wrapper {
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+  }
+  .steps-container-wrapper > div {
+    display: block;
+    width: 100%;
+  }
+
+  /* .sect-container{
+            background-color: var(--blue-900);
+            display: flex;
+            justify-content: center;
+            padding: 100px 0;
+            }
+         */
+  .sect-container-wrapper {
+    width: 90%;
+  }
+  .sect-container-wrapper .top > p {
+    width: 90%;
+  }
+  .sect-container-wrapper .buttom {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+  .sect-container-wrapper .buttom .left {
+    width: 100%;
+  }
+  .sect-container-wrapper .buttom .right {
+    width: 100%;
+  }
+
+  .journey-flex {
+   flex-direction: column;
+   align-items:  center;
+  }
+  .journey-flex > div {
+    width: 80%;
+  }
+
+  .priorty{
+   flex-direction: column;
+}
+.priorty .left{
+    width: 100%;
+}
+
+.priorty .right{
+    width: 100%;
+   
+}
+.priorty .right>img{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+  .investment-cards-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .investments-card {
+    width: 50%;
+    padding: 12px;
+    margin: 0 auto;
+  }
+  .investments-card > img {
+    height: 100px;
+  }
+
+  .investment-header {
+    color: var(--headerColor1);
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .why-choose-us-wrapper {
+    width: 100%;
+  }
+  .card-container {
+    flex-direction: column;
+  }
+  .card-container > div {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .ourservices-cards {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  .ourservices-cards > div {
+    width: 100%;
+    padding: 15px;
+  }
+  .count-cards-container {
+    display: block;
+  }
+  .count-cards-container > div {
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .our-history-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+  }
+  .our-history-wrapper > div {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .our-process-wraper {
+    width: 100%;
+    display: block;
+  }
+
+  .processes-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 15px;
+    gap: 15px;
+    margin: 0 auto;
+  }
+  .processes-container > div {
+    width: 100%;
+  }
+
+  .client-reviews-wrapper {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .review-container {
+    display: block;
+  }
+  .review-container > div {
+    width: 100%;
+
+    padding: 10px;
+  }
+
+  .get-started-wrapper {
+    margin: 0 auto;
+    width: 90%;
+    display: block;
+  }
+  .get-started-wrapper > div {
+    width: 100%;
+    padding: 15px;
+  }
+  .form-holder {
+    width: 90%;
+  }
+  .sucess-story {
+    width: 80%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,37 @@
+.steps{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: white;
+}
+
+.steps>h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.steps>div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.steps>div>h2{
+    font-size: 20px;
+    font-weight: bold
+}
+
+
+@media screen and (max-width: 768px) {
+    .steps>h1{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .steps>div{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    .steps>div>h2{
+        font-size: 18px;
+        font-weight: bold
+    }
+}

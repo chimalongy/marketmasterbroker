@@ -1,0 +1,35 @@
+.refundpolicy{
+    width: 100%;
+    color: var(--backgroundColor1);
+    background-color: var(--fontColor1);
+    font-size: 16px;
+    padding: 2rem 0;
+    text-align: justify;
+}
+
+.refundpolicy-container{
+    width: 80%;
+    margin: auto;
+}
+
+.refundpolicy-container>h1{
+    font-size: 35px;
+    padding: 2rem 0;
+    text-align: center;
+    color: orangered;
+    text-shadow: var(--textShadow);
+
+}
+
+
+.refundpolicy-body>p{
+   text-align: justify;
+   padding: 15px 0;
+
+}
+.refundpolicy-body>ul{
+   text-align: justify;
+   padding-left: 2rem;
+list-style-type: square;
+}
+

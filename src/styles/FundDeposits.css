@@ -1,0 +1,130 @@
+.funddeposit{
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+    color:white;
+}
+
+.amount-container{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+.funddeposit>.deposit-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.funddeposit>.deposit-container>.left{
+    width:70%;
+}
+.funddeposit>.deposit-container>.right{
+    width:30%;
+    
+}
+.funddeposit>.deposit-container>.right>div{
+ display: flex;
+ flex-direction: column;
+ gap: 18px;
+    
+}
+
+.deposit-select-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    gap: 50px;
+}
+.deposit-select-container>.left{
+   width: 30%;
+}
+.deposit-select-container>.right{
+   width: 70%;
+}
+.deposit-select-container>.left{
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.deposit-select-container>.left>ul{
+  display: flex;
+  flex-direction: column;
+  gap:6px
+}
+.deposit-select-container>.left>ul>li{
+  padding: 10px;
+
+  border-radius: 40px;
+}
+
+.deposit-select-container>.right{
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    
+}
+
+.payment-made{
+    margin-top: 30px;
+    padding: 12px;
+}
+
+.padded-div{
+ padding: 10px;
+}
+
+
+.upload-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding:18px;
+}
+.upload-controls{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.upload-controls>div{
+    width: 50%;
+}
+
+.wallettofundselect{
+    background-color: var(--blue-600);
+}
+@media screen and (max-width: 768px) {
+
+   
+    .funddeposit>.deposit-container{
+        flex-direction: column;
+    }
+
+    .funddeposit>.deposit-container>.left{
+        width:100%;
+    }
+    .funddeposit>.deposit-container>.right{
+        width:100%;
+    }
+.second-inner>.deposit-select-container{
+    flex-direction: column;
+}
+.second-inner>.deposit-select-container>.left{
+   width: 100%;
+}
+.second-inner>.deposit-select-container>.left{
+  display: flex;
+  
+}
+.second-inner>.deposit-select-container>.right{
+   width: 100%;
+}
+    
+.upload-controls{
+    gap: 30px;
+}
+ 
+}
+

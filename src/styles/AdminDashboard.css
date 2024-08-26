@@ -1,0 +1,128 @@
+.admin-dashboard{
+    padding: 60px 0;
+}
+
+
+.admin-dashboard-wrapper{
+   max-width:700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--blue-600);
+}
+
+.search-button{
+    font-size: 25px;
+    font-weight: 30px;
+}
+.search-button:active {
+    color: darkcyan;
+}
+
+.user-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+   
+}
+.user-container>div{
+   
+   padding:15px 10px;
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+  
+}
+
+.user-controls-buttons{
+    display: flex;
+    gap:12px;
+    flex-wrap: wrap;
+}
+.user-controls-buttons>button{
+   padding: 2px 12px;
+   border-radius: 20px;
+}
+.user-controls-buttons>button:active{
+   background-color: midnightblue;
+
+
+}
+
+.disabled-button{
+    background-color: gray;
+}
+
+.funds-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+    border:1px solid var(--headerColor3);
+    padding:15px 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.funds-container>input{
+    padding: 5px;
+    font-size: 12px;
+    width: 200px;
+}
+.funds-container>div{
+    display: flex;
+    gap: 5px;
+}
+.funds-container>div>button{
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+.funds-container>div>button>div{
+    background-color: midnightblue;
+    
+}
+
+.investment-card{
+    font-size: 10px;
+   padding: 18px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   background-color: var(--headerColor3);
+   color:white;
+   border-radius: 20px;
+   margin-top: 10px;
+}
+
+
+.userTransationList{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .funds-container>input{
+        padding: 5px;
+        font-size: 12px;
+        width: 100%;
+    }
+    .admin-dashboard-wrapper{
+        width:100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .search-div{
+        width: 80%;
+        margin: 0 auto;
+    }
+}

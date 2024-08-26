@@ -1,0 +1,184 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var( --pri-black);
+   
+    padding: 20px 0;
+    position: sticky;
+    top: 0; /* Add this line */
+    z-index: 1000; /* Ensures the navbar stays on top */
+  
+}
+ 
+.nav-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.nav-container>div {
+  display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+.logo {
+    
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    background-color: var(--blue-950);
+    padding: 10px;
+    border-radius: 8px;
+    width:100px;
+    color:white;
+}
+
+
+.nav-container>ul {
+    list-style-type: none;
+   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0%;
+    text-decoration: none;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.nav-links>li {
+  padding: 10px;  
+  width: 100px;
+  text-align: center;
+}
+.nav-links>li:hover {
+  background-color: var(--blue-900);  
+}
+.nav-links>li>a {
+  
+    font-size: 19px;
+    color: white;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+   
+}
+
+.nav-button {
+   
+    color:white;
+   padding: 12px;
+   width: 100px;
+   
+   text-align: center;
+}
+
+.login-button{
+border: 1px solid var(--blue-100);
+background-color: transparent;
+color: var(--blue-100);
+
+
+}
+.login-button:hover{
+    background-color: var(--blue-900);
+    color:white;
+
+
+}
+.register-button{
+   
+    color:white;
+
+
+}
+.register-button:hover{
+    
+    border: 1px solid var(--blue-100);
+ 
+}
+
+
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--blue-900);
+}
+.nav-button-wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+       padding:10px;
+    }
+
+    .nav-container{
+        width: 100%;
+        gap: 6px;
+    }
+
+    .logo {
+    
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        background-color: var(--blue-900);
+        padding: 8px;
+        border-radius: 8px;
+        width:80px;
+        
+    }
+  
+    .nav-links {
+        display: none;
+    }
+
+
+    .nav-links-mobile {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        gap: 1.3rem;
+        top: 110px; /* Adjust this value to be below the sticky navbar */
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        padding: 30px;
+        background-color: var(--blue-1000);
+        border-bottom: 10px solid var(--blue-900);
+        color: white;
+
+    }
+
+    .nav-button {
+    
+       padding: 8px;
+       width: 70px;
+      
+       
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

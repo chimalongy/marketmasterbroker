@@ -1,0 +1,51 @@
+.dashboard-tab{
+    display: flex;
+    justify-content: space-between;
+    
+    padding:0;
+}
+
+.dashboard-left{
+    width:20%;
+    background-color: grey;
+    padding: 30px;
+    border: 1px solid blue;
+}
+
+.active{
+    background-color: lightblue;
+}
+
+
+
+.dashboard-right{
+    width:80%;
+    background-color: grey;
+    border: 1px solid yellow;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.dashboard-controls{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap:1rem;
+   
+}
+
+.theme-selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DASH BOARD TAB STYLES */
+
+.dashboard-content{
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+    gap:18px;
+}
+

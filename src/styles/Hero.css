@@ -1,0 +1,115 @@
+ @import "./keyframes.css";
+.hero-wrapper {
+ 
+    height: calc(90vh - 60px);
+    background: url("../images/heroimage.png");
+    background-size: cover; /* Ensures the background image covers the entire area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+.hero-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 103%;
+    background-color: rgba(45, 20, 3, 0.493); /* Black color with 50% opacity */
+    z-index: 1; /* Ensures the overlay is on top of the background image */
+}
+
+.hero-container{
+  
+   padding:100px 0;
+   width: 80%;
+   margin:0 auto;
+   display: flex;
+   
+}
+
+.hero-left{
+    width: 100%;
+    z-index: 4;
+}
+/* .hero-right{
+width: 50%;;
+}
+.hero-right>img{
+width: 100%;
+} */
+
+.hero-stuffs{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+
+}
+.hero-stuffs> button{
+    width: 250px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+
+
+
+.sider-content{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.bounce{
+    opacity: 1;
+    transform: translateX(0);
+    animation: bounce 6s infinite;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero-container{
+  flex-direction: column;
+  gap:30px;
+     }
+
+     .hero-wrapper::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 95.5%;
+        /* Black color with 50% opacity */
+        z-index: 1; /* Ensures the overlay is on top of the background image */
+    }
+
+
+
+    .hero-container>div{
+        width:100%; 
+     }
+
+   
+    .hero-container{
+  
+        padding:30px 0;
+        width: 80%;
+        margin:0 auto;
+        display: flex;
+     }
+ 
+     .hero-stuffs{
+       justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap:40px;
+    }
+
+
+
+
+
+}

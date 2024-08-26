@@ -1,0 +1,30 @@
+.feautues-card{
+    padding:25px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    color: white;
+
+}
+.feautues-card>p{
+   font-size: 15px;
+   margin-top: 15px;
+
+}
+.feautues-card>.card-top{ 
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   
+
+}
+.feautues-card>.card-top>h2{ 
+ font-size: 19px;
+ font-weight: bold;
+
+}
+.feautues-card>.card-top>p{ 
+color: var(--blue-500);
+font-size: 30px;
+
+}
+

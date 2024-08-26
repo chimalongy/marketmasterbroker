@@ -1,0 +1,92 @@
+/* .text-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-slider-inner {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .text-slide {
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .text-slide.active {
+    opacity: 1;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .pagination-item {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-item.active {
+    background-color: #333;
+  }
+   */
+
+   .pagination {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .pagination-item {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 0.5s ease; /* Added transition */
+  }
+  
+  .pagination-item.active {
+    background-color: #333;
+  }
+  
+  .text-slider {
+    
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-slider-inner {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .text-slide {
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .text-slide.active {
+    opacity: 1;
+  }
+  .slidebutons{
+    display: flex;
+    gap:15px;
+   
+  }
+  .slidebutons>button{
+    background-color: blue;
+    color:white;
+    padding:8px;
+    width: calc(100% / 2);
+    border-radius: 5px;
+  }

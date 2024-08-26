@@ -1,0 +1,48 @@
+.card-component3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    align-items: center;
+}
+.card-component3>.top{
+    width: 100%;
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.5);
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+}
+.card-icon{
+    font-size: 40px;
+    color: var(--headerColor1);
+}
+
+.step-number{
+    position:absolute;
+    width:40px;
+    height: 40px;
+    background-color:white;
+    top:-10px;
+    right: 10px;
+    color: orange;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border:3px solid orange;
+}
+.card-header{
+    color: var(--headerColor1);
+}
+.card-description{
+    text-align: center;
+    color: var(--textColor1);
+}
+
+
+
+

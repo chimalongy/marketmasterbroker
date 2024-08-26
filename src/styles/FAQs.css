@@ -1,0 +1,61 @@
+/* MyCollapsible.css */
+
+.custom-trigger {
+  background-color: var( --blue-900);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .custom-trigger:hover {
+    background-color: var( --blue-950);
+  }
+  
+  .custom-trigger-open {
+    color: red;
+  }
+  
+  .custom-content-outer {
+    border: 1px solid var(--blue-800);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: none;
+  }
+  
+  .custom-content-inner {
+    padding: 15px;
+  }
+  
+  .custom-content {
+    color:white;
+  }
+
+  .FAQs-Main{
+    text-align: center;
+  }
+
+.FAQ-List{
+    display: flex;
+    text-align: left;
+}
+.FAQ-List>div{
+    width:50%;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+@media screen and (max-width: 768px) {
+    .FAQ-List{
+        flex-direction: column;
+        gap:10px
+    }
+    .FAQ-List>div{
+        width: 100%;
+       padding: 5px;
+
+    }
+}
+  

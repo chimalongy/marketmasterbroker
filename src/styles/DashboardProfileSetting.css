@@ -1,0 +1,79 @@
+.DashboardProfileSetting{
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+    color:white;
+}
+
+
+.profile-details-container{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    gap:16px;
+    flex-direction: column;
+}
+.profile-details-container>img{
+    width: 60px;
+    height: 60px;
+     margin: 0 auto;
+}
+.profile-details-container>div{
+    padding: 10px;
+    text-align: center;
+}
+
+.kyc-content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 16px;
+}
+.kyc-content-container>p{
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+}
+.kyc-uploads-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+
+.kyc-Uploads{
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    
+}
+.kyc-Uploads>div{
+    width: 50%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 12px;
+    background-color: transparent;
+    
+}
+.kyc-Uploads>div>i{
+   font-size: 30px;
+
+}
+
+.referal-code{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+.refer-code{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--blue-400);
+}
